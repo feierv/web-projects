@@ -215,14 +215,17 @@ body{
     <a class="btn btn-primary btn-lg rounded-pill login_btn btn-width-jumbotron" href="index.php" role="button"> <i class="fas fa-paper-plane fas-jumbotron "></i>Log in!</a>
   </p>
     <p class="lead">not a member yet?<p/>
+ 
      <p class="lead ">
-<button type="button " class="btn btn-info btn-lg rounded-pill btn-width-jumbotron"><i class="fas fa-user fas-jumbotron"></i>register</button>  </p>
+    <a class="btn btn-info btn-lg rounded-pill btn-width-jumbotron" href="index.php" role="button"> <i class="fas fa-user fas-jumbotron"></i>register</a>
+  </p>
+
 </div>
 
 	<div class="container">
 
        <div class="col" id="appSummary">
-			<h1>Why this App is Awesome!</h1>
+			<h1>Why this Chat App is Awesome!</h1>
 
             <p class="lead">an reminder of your app awesomness  </p>
          </div>
