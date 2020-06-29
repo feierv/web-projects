@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"rel="stylesheet"  type="text/css" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/fontawesome.min.css" rel="stylesheet"  type="text/css"/>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/brands.min.css"rel="stylesheet"  type="text/css"/>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/brands.css"rel="stylesheet"  type="text/css"/>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+ <style>
+
+
+
+body{
+
+background-color:white;
+}
+
+ .standard-height{
+ 
+    height:84px;
+          
+	}
+
+.nav-container{
+
+ border:1px solid red;
+
+}
+ 
+
+.navbar-color{
+
+  background-color:#009AFF;
+}
+
+.active{
+
+border-bottom:3px solid white;
+}
+
+
+.title-color{
+
+color:#009AFF;;
+
+}
+
+.fa-comment-alt{
+
+padding-right:2px;
+}
+
+.left-button-font{
+
+ font-size:11px;
+
+}
+
+.rated-description{
+
+font-size:15px;
+}
+
+.nav-font{
+
+
+font-size:12px;
+
+}
+
+@media (max-width: @screen-xs) {
+    .left-button-font{font-size: 7px;}
+}
+
+@media (max-width: @screen-sm) {
+    .left-button-font{font-size: 12px;}
+}
+
+.card-footer,
+.img-thumbnail,
+.card{
+background-color:white;
+border:none;
+}
+.fill { 
+    min-height: 100%;
+    height: 100%;
+}
+
+#content{
+
+background-color:#F8F8F8;
+
+}
+
+#footer{
+
+background-color:#FFFFFF;
+
+}
+
+#footer-description{
+	color:#8b909e;
+	font-size:24px;
+	border-bottom:1px solid #e1e1e1;
+	text-align:center;	
+}
+
+#bottom-btn{
+font-size:17px
+}
+
+#bottom-btn i{
+
+margin-right:10px;
+
+}
+
+
+#footer-nav li{
+
+		margin-left : 20px;
+        margin-right : 20px;
+}
+
+#footer-nav a:hover{
+
+		 color:#009AFF;
+}
+
+@media (min-width: 992px){
+    .navbar li {
+        margin-left : 1em;
+        margin-right : 1em;
+    }
+}
+
+.copyright{
+
+font-size:12px;
+color:#cbcdd3;
+
+}
+
+
+#img-quote{
+
+position:absolute;
+
+}
+
+
+#content container row container:not(:first-child) {
+    background-color: red;
+}
+
+   </style>
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-color standard-height ">
+	 <div class=" container nav-container h-100 nav-font">
+		<a class="navbar-brand" href="#">
+          <img src="logo.png" alt="">
+        </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarText">
+		<ul class="navbar-nav  ml-auto">
+		  <li class="nav-item active h-100 mr-4  active d-inline-block" >
+			<a class="nav-link " href="#"> HOME <span class="sr-only">(current)</span></a>
+		  </li>
+		  <li class="nav-item mr-4">
+			<a class="nav-link" href="#">JOBS</a>
+		  </li>
+		  <li class="nav-item mr-4">
+			<a class="nav-link" href="#">ADD EMPLOYER</a>
+		  </li> 
+		  <li class="nav-item mr-4">
+			<a class="nav-link" href="#">ABOUT US</a>
+		  </li><li class="nav-item mr-4">
+			<a class="nav-link" href="#">CONTACT</a>
+		  </li><li class="nav-item " >
+			<a class="nav-link" href="#">SIGN IN <i class="fa fa-user-tie" aria-hidden="true"></i></a>
+		  </li>
+		</ul>  
+	  </div>
+	</div>
+  </nav>
+
+
+
+
+
+   <div class="container-fluid " id="content" style="border:1px solid red;">
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4" style="border:1px solid blue;">
+				<div class="row-3 pt-4 pl-3"  style="border:1px solid red;" >
+						<h2>Top <span class="title-color">Rated</span></h2>
+					<p class="text-muted rated-description" style="font-size:13px;">Here are top 5 most revieved companies</p>
+				</div>
+	<div class="container mb-3 shadow-sm" >
+				<p class="font-weight-bold">The Metropolitan Museum of Art</p>              				
+					<div class=" pb-3 " >
+						<button type="button" class="btn navbar-color text-white btn-sm " id="tesst"> <span class="left-button-font"> <i class="fa fa-comment-alt" aria-hidden="true"></i>112 REVIEVWS </span></button>
+						<button type="button" class="btn btn-white text-dark btn-sm"> <span class="left-button-font title-color">SEE DETAILS <i class="fa fa-angle-right" aria-hidden="true"></i></span> </button>
+					</div>
+			  </div>	<div class="container mb-3 shadow-sm" >
+				<p class="font-weight-bold">The Metropolitan Museum of Art</p>              				
+					<div class=" pb-3 " >
+						<button type="button" class="btn navbar-color text-white btn-sm " id="tesst"> <span class="left-button-font"> <i class="fa fa-comment-alt" aria-hidden="true"></i>112 REVIEVWS </span></button>
+						<button type="button" class="btn btn-white text-dark btn-sm"> <span class="left-button-font title-color">SEE DETAILS <i class="fa fa-angle-right" aria-hidden="true"></i></span> </button>
+					</div>
+			  </div>
+			<div class="container mb-3 shadow-sm" >
+				<p class="font-weight-bold">The Metropolitan Museum of Art</p>              				
+					<div class=" pb-3 " >
+						<button type="button" class="btn navbar-color text-white btn-sm " id="tesst"> <span class="left-button-font"> <i class="fa fa-comment-alt" aria-hidden="true"></i>112 REVIEVWS </span></button>
+						<button type="button" class="btn btn-white text-dark btn-sm"> <span class="left-button-font title-color">SEE DETAILS <i class="fa fa-angle-right" aria-hidden="true"></i></span> </button>
+					</div>
+			  </div>   
+<div class="container mb-3 shadow-sm" >
+				<p class="font-weight-bold">The Metropolitan Museum of Art</p>              				
+					<div class=" pb-3 " >
+						<button type="button" class="btn navbar-color text-white btn-sm " id="tesst"> <span class="left-button-font"> <i class="fa fa-comment-alt" aria-hidden="true"></i>112 REVIEVWS </span></button>
+						<button type="button" class="btn btn-white text-dark btn-sm"> <span class="left-button-font title-color">SEE DETAILS <i class="fa fa-angle-right" aria-hidden="true"></i></span> </button>
+					</div>
+			  </div>   
+<div class="container mb-3 shadow-sm" >
+				<p class="font-weight-bold">The Metropolitan Museum of Art</p>              				
+					<div class=" pb-3 " >
+						<button type="button" class="btn navbar-color text-white btn-sm " id="tesst"> <span class="left-button-font"> <i class="fa fa-comment-alt" aria-hidden="true"></i>112 REVIEVWS </span></button>
+						<button type="button" class="btn btn-white text-dark btn-sm"> <span class="left-button-font title-color">SEE DETAILS <i class="fa fa-angle-right" aria-hidden="true"></i></span> </button>
+					</div>
+			  </div>   
+	</div>
+    <div class="col-sm-8" style="border:1px solid blue;">
+		<div class="row container " style="border:1px solid green;">
+			<div class="container">
+				<h3 class="text-muted pt-4">3.250 jobs</h3>
+				 <p class="font-weight-bold title-color"> ARTS/RECREATIONS > MANHATAN</p>
+			</div>
+		</div>  
+	
+<div class="row mb-3" style="border:1px solid pink;">
+		<div class="container col-4 " style="border:1px solid green;">
+
+			<div class="card text-center shadow-sm">
+			 
+			  <div class="card-body">
+				<img src="test.png" alt="..." class="img-thumbnail">
+				<h5 class="card-title">Ilustrator</h5>
+				<p class="card-text text-muted">BG Art</p>
+			  </div>
+			  <div class="card-footer">
+							<button type="button" class="btn btn-white text-dark btn-sm"> <span class="left-button-font title-color">SEE DETAILS <i class="fa fa-angle-right" aria-hidden="true"></i></span> </button>
+			  </div>
+			</div>
+		</div>
+		<div class="container col-4 " style="border:1px solid green;">
+
+		  <div class="card text-center shadow-sm">
+			 
+			  <div class="card-body">
+				<img src="test.png" alt="..." class="img-thumbnail">
+				<h5 class="card-title">Ilustrator</h5>
+				<p class="card-text text-muted">BG Art</p>
+			  </div>
+			  <div class="card-footer">
+							<button type="button" class="btn btn-white text-dark btn-sm"> <span class="left-button-font title-color">SEE DETAILS <i class="fa fa-angle-right" aria-hidden="true"></i></span> </button>
+			  </div>
+			</div>
+
+		</div>
+		<div class="container col-4 " style="border:1px solid green;">
+
+		  <div class="card text-center shadow-sm">
+			 
+			  <div class="card-body">
+				<img src="test.png" alt="..." class="img-thumbnail">
+				<h5 class="card-title">Ilustrator</h5>
+				<p class="card-text text-muted">BG Art</p>
+			  </div>
+			  <div class="card-footer">
+							<button type="button" class="btn btn-white text-dark btn-sm"> <span class="left-button-font title-color">SEE DETAILS <i class="fa fa-angle-right" aria-hidden="true"></i></span> </button>
+			  </div>
+			</div>
+
+		</div>
+	  </div>
+	<div class="row mb-3" style="border:1px solid pink;">
+		<div class="container col-4 " style="border:1px solid green;">
+
+		  <div class="card text-center shadow-sm">
+			 
+			  <div class="card-body">
+				<img src="test.png" alt="..." class="img-thumbnail">
+				<h5 class="card-title">Ilustrator</h5>
+				<p class="card-text text-muted">BG Art</p>
+			  </div>
+			  <div class="card-footer">
+							<button type="button" class="btn btn-white text-dark btn-sm"> <span class="left-button-font title-color">SEE DETAILS <i class="fa fa-angle-right" aria-hidden="true"></i></span> </button>
+			  </div>
+			</div>
+
+		</div>
+		<div class="container col-4 " style="border:1px solid green;">
+
+		  <div class="card text-center shadow-sm">
+			 
+			  <div class="card-body">
+				<img src="test.png" alt="..." class="img-thumbnail">
+				<h5 class="card-title">Ilustrator</h5>
+				<p class="card-text text-muted">BG Art</p>
+			  </div>
+			  <div class="card-footer">
+							<button type="button" class="btn btn-white text-dark btn-sm"> <span class="left-button-font title-color">SEE DETAILS <i class="fa fa-angle-right" aria-hidden="true"></i></span> </button>
+			  </div>
+			</div>
+
+		</div>
+		<div class="container col-4 " style="border:1px solid green;">
+
+		  <div class="card text-center shadow-sm">
+			 
+			  <div class="card-body">
+				<img src="test.png" alt="..." class="img-thumbnail">
+				<h5 class="card-title">Ilustrator</h5>
+				<p class="card-text text-muted">BG Art</p>
+			  </div>
+			  <div class="card-footer">
+							<button type="button" class="btn btn-white text-dark btn-sm"> <span class="left-button-font title-color">SEE DETAILS <i class="fa fa-angle-right" aria-hidden="true"></i></span> </button>
+			  </div>
+			</div>
+
+		</div>
+	  </div>
+	<div class="row mb-3" style="border:1px solid pink;">
+		<div class="container col-4 " style="border:1px solid green;">
+
+		  <div class="card text-center shadow-sm">
+			 
+			  <div class="card-body">
+				<img src="test.png" alt="..." class="img-thumbnail">
+				<h5 class="card-title">Ilustrator</h5>
+				<p class="card-text text-muted">BG Art</p>
+			  </div>
+			  <div class="card-footer">
+							<button type="button" class="btn btn-white text-dark btn-sm"> <span class="left-button-font title-color">SEE DETAILS <i class="fa fa-angle-right" aria-hidden="true"></i></span> </button>
+			  </div>
+			</div>
+
+		</div>
+		<div class="container col-4 " style="border:1px solid green;">
+
+		  <div class="card text-center shadow-sm">
+			 
+			  <div class="card-body">
+				<img src="test.png" alt="..." class="img-thumbnail">
+				<h5 class="card-title">Ilustrator</h5>
+				<p class="card-text text-muted">BG Art</p>
+			  </div>
+			  <div class="card-footer">
+							<button type="button" class="btn btn-white text-dark btn-sm"> <span class="left-button-font title-color">SEE DETAILS <i class="fa fa-angle-right" aria-hidden="true"></i></span> </button>
+			  </div>
+			</div>
+
+		</div>
+		<div class="container col-4 " style="border:1px solid green;">
+
+		  <div class="card text-center shadow-sm">
+			 
+			  <div class="card-body">
+				<img src="test.png" alt="..." class="img-thumbnail">
+				<h5 class="card-title">Ilustrator</h5>
+				<p class="card-text text-muted">BG Art</p>
+			  </div>
+			  <div class="card-footer">
+							<button type="button" class="btn btn-white text-dark btn-sm"> <span class="left-button-font title-color">SEE DETAILS <i class="fa fa-angle-right" aria-hidden="true"></i></span> </button>
+			  </div>
+			</div>
+		</div>
+	  </div>
+ <div class="row  text-center mb-5">
+
+		<div class="container  col-4" style="border:1px solid orange;">
+			<button type="button" id="bottom-btn" class="btn text-white navbar-color btn-lg btn-block ">    <i class="fa fa-angle-double-down fa-xs"aria-hidden="true"></i> Show more</button>
+		</div>
+	</div>
+  </div>
+</div> 
+</div>
+
+<div class="container-fluid" id="footer">
+
+    <div class="container" style="border:1px solid orange;">
+	
+			<p class="m-5 pb-5" id="footer-description">You wouldn`t try a new restaurant without reading a review first,so why would you take a job without getting an inside look?</p>
+   </div>
+	<div class="container text-center" style="border:1px solid orange;">		 
+  
+     <nav class="navbar navbar-expand-lg navbar-light  ">
+
+	 <div class=" container nav-container h-100 nav-font">
+
+	  </button>
+	  <div class=" navbar-collapse" id="footer-nav">
+		<ul class="navbar-nav  ">
+		  <li class="nav-item  h-100  fill" >
+			<a class="nav-link " href="#"> POSTING GUIDELINES <span class="sr-only">(current)</span></a>
+		  </li>
+		  <li class="nav-item ">
+			<a class="nav-link" href="#">TERMS OF USE </a>
+		  </li>
+		  <li class="nav-item ">
+			<a class="nav-link" href="#">PRIVACY POLICY</a>
+		  </li> 
+		  <li class="nav-item ">
+			<a class="nav-link" href="#">ADVERTISERS</a>
+		  </li>       
+           <li class="nav-item" >
+			<a class="nav-link" href="#">FOLLLOW US ON: </a>
+		  </li>
+			<li class="nav-item " >
+			<a class="nav-link" href="#"> <i class="fab fa-facebook fa-2x"></i></a>
+		  </li>
+			<li class="nav-item" >
+			<a class="nav-link" href="#"> <i class="fab fa-twitter fa-2x" aria-hidden="true"></i></a>
+		  </li>
+			<li class="nav-item " >
+			<a class="nav-link" href="#"> <i class="fab fa-google-plus-g fa-2x" aria-hidden="true"></i></a>
+		  </li>
+		</ul>  
+	  </div>
+	</div>
+ </nav>
+</div>
+<div class="container" >
+	<p  class="float-left w-50 ml-0 copyright" style="border:1px solid brown">Copyright &copy; 2015-2016,dinamic Einsidelook,Einsidelook &reg; is a registered trademark of Enisidelook LLC.</p>
+
+     <div class="d-inline-flex p-1 float-right"  style="border:1px solid green">
+			<img class="img-responsive pl-5" src="bottom-img.png" >         
+			<p id="img-quote" class=" copyright" >"Proudly born in NYC"</p>
+	</div>     
+</div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/brands.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/brands.js"></script>
+    <script>
+
+$(window).on('resize', function() {
+
+		console.log("width"+$(window).width());
+    if($(window).width() < 991) {
+        $('.navbar').removeClass('standard-height');
+	  
+
+
+    } else{ 
+    
+		$('.navbar').addClass('standard-height');	  
+		$('.navbar').addClass('standard-nav-padding-left');
+	    $('.navbar').addClass('standard-nav-padding-right');
+		}
+
+   
+       if($(window).width()<1353){
+
+            $('.navbar').removeClass('standard-nav-padding-left');
+			$('.navbar').removeClass('standard-nav-padding-right');
+
+		} else {
+   
+
+		}
+});
+	</script>
+
+  </body>
+</html>
